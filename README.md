@@ -1,50 +1,117 @@
-# Welcome to your Expo app 👋
+# Blockchain Mobile Wallet App 🪙
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, cross-platform mobile application built with React Native and Expo for managing and tracking cryptocurrency assets. This project serves as a robust foundation for a feature-rich blockchain wallet, featuring a clean architecture, modern tooling, and a focus on user experience.
 
-## Get started
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Expo](https://img.shields.io/badge/expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+-   **Cross-Platform:** Built with Expo to run seamlessly on iOS, Android, and Web from a single codebase.
+-   **Modern UI:** Styled with NativeWind (Tailwind CSS for React Native) for rapid, utility-first styling.
+-   **Type-Safe:** Developed entirely in TypeScript for enhanced code quality and maintainability.
+-   **File-Based Routing:** Utilizes Expo Router for intuitive, file-system-based navigation.
+-   **State Management:** Structured with React Context API for managing global state like authentication.
+-   **Component-Based Architecture:** Organized into reusable components for a scalable and clean codebase.
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Technologies Used
 
-In the output, you'll find options to open the app in a
+| Technology                                                    | Description                                            |
+| ------------------------------------------------------------- | ------------------------------------------------------ |
+| [**React Native**](https://reactnative.dev/)                  | Core framework for building native mobile applications |
+| [**Expo**](https://expo.dev/)                                 | Toolchain for building and deploying React Native apps |
+| [**TypeScript**](https://www.typescriptlang.org/)             | Statically typed superset of JavaScript                |
+| [**NativeWind**](https://www.nativewind.dev/)                 | Tailwind CSS for React Native                          |
+| [**Expo Router**](https://docs.expo.dev/router/introduction/) | File-system based routing for React Native apps        |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Follow these instructions to get the project up and running on your local machine.
 
-## Get a fresh project
+### Prerequisites
 
-When you're ready, run:
+-   Node.js (LTS version recommended)
+-   Expo CLI (`npm install -g expo-cli`)
+-   A mobile simulator (Xcode for iOS, Android Studio for Android) or a physical device with the Expo Go app.
 
-```bash
-npm run reset-project
+### Installation
+
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/tejHacks/blockchain-mobile-wallet-app.git
+    cd blockchain-mobile-wallet-app
+    ```
+
+2.  **Install Dependencies**
+    Use `npm` to install the required packages.
+    ```bash
+    npm install
+    ```
+
+3.  **Run the Application**
+    Start the development server.
+    ```bash
+    npm start
+    ```
+    This will open the Expo Developer Tools in your browser. From there, you can choose to run the app on a simulator or a physical device.
+
+## 📈 Usage
+
+After starting the development server, you can:
+
+-   **Press `i`** to launch the app on the iOS Simulator.
+-   **Press `a`** to launch the app on an Android Emulator.
+-   **Press `w`** to launch the app in a web browser.
+-   Alternatively, scan the QR code with the Expo Go app on your physical device.
+
+The application is structured with a clear navigation flow, starting from authentication screens and leading to the main dashboard where users can view their assets, check coin details, and manage their wallet.
+
+## 📂 Project Structure
+
+The project follows a feature-driven directory structure to keep the codebase organized and scalable.
+
+```
+/app
+├── _layout.tsx         # Root layout for the app
+├── index.tsx           # Initial screen
+├── (auth)              # Authentication-related screens
+│   ├── Login.tsx
+│   └── Register.tsx
+├── (main)              # Main application screens after login
+│   ├── Home.tsx
+│   ├── Wallet.tsx
+│   └── CoinDetails.tsx
+├── components/         # Reusable UI components
+├── context/            # Global state management (React Context)
+└── hooks/              # Custom React hooks
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🤝 Contributing
 
-## Learn more
+Contributions are welcome! If you have suggestions for improving the app, please feel free to open an issue or submit a pull request.
 
-To learn more about developing your project with Expo, look at the following resources:
+1.  **Fork the repository**
+2.  **Create a new branch** (`git checkout -b feature/your-feature-name`)
+3.  **Make your changes**
+4.  **Commit your changes** (`git commit -m 'Add some feature'`)
+5.  **Push to the branch** (`git push origin feature/your-feature-name`)
+6.  **Open a Pull Request**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📄 License
 
-## Join the community
+This project is not licensed for open-source distribution. All rights are reserved.
 
-Join our community of developers creating universal apps.
+## 👤 Author
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Connect with me on social media!
+
+-   **Twitter:** [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
+-   **LinkedIn:** [YourLinkedInProfile](https://linkedin.com/in/YourLinkedInProfile)
+
+---
+
+[![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)

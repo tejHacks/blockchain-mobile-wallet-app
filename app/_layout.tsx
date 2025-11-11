@@ -1,8 +1,7 @@
-// app/_layout.tsx
-import React from 'react';
-import { Stack } from 'expo-router';
-import { AuthProvider } from './context/AuthContext';
-import { StatusBar } from 'expo-status-bar';
+import React from "react";
+import { Stack } from "expo-router";
+import AuthProvider from "./context/AuthContext"; // default export
+import { StatusBar } from "expo-status-bar";
 
 export default function Layout() {
   return (
