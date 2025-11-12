@@ -20,7 +20,7 @@ A modern, cross-platform mobile application built with React Native and Expo for
 
 ## 🛠️ Technologies Used
 
-| Technology                                                    | Description                                            |
+| Technology                                                    | Description                                            |****
 | ------------------------------------------------------------- | ------------------------------------------------------ |
 | [**React Native**](https://reactnative.dev/)                  | Core framework for building native mobile applications |
 | [**Expo**](https://expo.dev/)                                 | Toolchain for building and deploying React Native apps |
