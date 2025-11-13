@@ -105,7 +105,8 @@ Contributions are welcome! If you have suggestions for improving the app, please
 
 This project is not licensed for open-source distribution. All rights are reserved.
 
-## 👤 Author
+## 👤 github.com/tejHacks
+## Test the application at ::: https://appetize.io/app/b_i7one6uvgzdmonflg3llvjh4ti
 
 Connect with me on social media!
 
