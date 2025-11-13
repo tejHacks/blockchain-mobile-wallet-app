@@ -117,7 +117,8 @@ Connect with me on social media!
 
 - **Twitter:** [@OlatejuOlamid10](https://x.com/OlatejuOlamid10)
 - **LinkedIn:** [Olateju LinkedInProfile](https://www.linkedin.com/in/olateju-olamide-22314a292/)
-**Run Apk** [Test the application at](https://appetize.io/app/b_i7one6uvgzdmonflg3llvjh4ti)
+**Run Apk** [Test the application at APPETIZE.IO](https://appetize.io/app/b_i7one6uvgzdmonflg3llvjh4ti)
+**Download Apk at** [Download](https://drive.google.com/file/d/1MCHlX905vSNluKB92yQ8ND-JJfJ-QdKY/view?usp=drive_link)
 
 ---
 
